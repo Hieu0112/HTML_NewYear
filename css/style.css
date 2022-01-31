@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/c499afd547485eb19e259353294edfa2.jpg");
+    background-size: cover; 
+}
+.phao{
+    position:absolute;
+    width: 25%;
+}
+.p1{
+    right: 0;
+    top:0;
+}
+.gif2{
+    top:0;
+    left:40%;
+}
+.gif1{
+    left:10%;
+    top:0;
+}
+
+.contain-tree-flower .tree-flower {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.contain-tree-flower:nth-child(1) {
+    position: fixed;
+    width: 30%;
+    height: 60%;
+    top: 0;
+}
+.contain-tree-flower:nth-child(2) {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    width: 28%;
+    height: 65%;
+}
+
+
+.lentern {
+    position: absolute;
+    transition: 4s;
+}
+.contain-tree-flower:nth-child(1) > .lentern:nth-child(2) {
+    width: 10%;
+    height: 30%;
+    top:15%;
+    left:20%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate;
+}
+
+.contain-tree-flower:nth-child(1) > .lentern:nth-child(3) {
+    width: 15%;
+    height: 25%;
+    top: 42%;
+    left: 40%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate;
+}
+
+.contain-tree-flower:nth-child(1) > .lentern:nth-child(4) {
+    width: 10%;
+    height: 36%;
+    top: 50%;
+    left: 10%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate;
+}
+
+.contain-tree-flower:nth-child(2) > .lentern:nth-child(2) {
+    width: 11%;
+    height: 30%;
+    top:20%;
+    right:41%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate;
+}
+
+.contain-tree-flower:nth-child(2) > .lentern:nth-child(3) {
+    width: 17%;
+    height: 23%;
+    top:33%;
+    right:57%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate;
+}
+
+.contain-tree-flower:nth-child(2) > .lentern:nth-child(4) {
+    width: 10%;
+    height: 33%;
+    top:54%;
+    right:48%;
+    -webkit-animation: fly  3s linear 2.5s infinite alternate ;
+}
+
+.family {
+    position: fixed;
+}
+.family:nth-child(4) {
+    left: 2.5%;
+    bottom:1%;
+    width: 25%;
+}
+.family:nth-child(5) {
+    left: 45%;
+    bottom: 2%;
+    width: 14%;
+}
+@keyframes fly {
+        0%,
+        100% {
+            transform: translateX(15%) rotate(-10deg);
+        }
+        50% {
+            transform: translateX(-15%) rotate(10deg);
+        }
+    }
+
+@keyframes animationTopDownTextTet {
+    to {
+        top: -12%;
+    }
+}
+@keyframes animationTopDownNumber2020 {
+    to {
+        top: -15%;
+    }
+}
+@keyframes animationTopDownSlogan {
+    to {
+        top: -11%;
+    }
+}
+.textTet {
+    position: fixed;
+    top: -7%;
+    width: 9%;
+    height: 32%;
+    left: 26%;
+    -webkit-animation: animationTopDownTextTet  1.2s linear 2.5s infinite alternate;
+    -moz-animation: animationTopDownTextTet  1.2s linear 2.5s infinite alternate;
+}
+.number {
+    position: fixed;
+    top: -2%;
+}
+.number:nth-child(7) {
+    left: 35%;
+    -webkit-animation: animationTopDownNumber2020 1.9s ease-in-out 2.8s infinite alternate;
+    -moz-animation: animationTopDownNumber2020 1.9s ease-in-out 2.8s infinite alternate;
+}
+.number:nth-child(8) {
+    left: 41%;
+    -webkit-animation: animationTopDownNumber2020 1.9s ease-in-out 3.1s infinite alternate;
+    -moz-animation: animationTopDownNumber2020 1.9s ease-in-out 3.1s infinite alternate;
+}
+.number:nth-child(9) {
+    left: 46%;
+    -webkit-animation: animationTopDownNumber2020 1.9s ease-in-out 3.4s infinite alternate;
+    -moz-animation: animationTopDownNumber2020 1.9s ease-in-out 3.4s infinite alternate;
+}
+.number:nth-child(10) {
+    left: 51%;
+    -webkit-animation: animationTopDownNumber2020 1.9s ease-in-out 3.7s infinite alternate;
+    -moz-animation: animationTopDownNumber2020 1.9s ease-in-out 3.7s infinite alternate;
+}
+.slogan {
+    position: fixed;
+    top: 4%;
+    width: 8%;
+    height: 24%;
+    left: 58%;
+    opacity: 1;
+    -webkit-animation: flys 1.5s ease-in-out 3.9s infinite alternate;
+
+}
+@keyframes flys {
+   to{
+    top: 0%;
+    opacity: 0.4;
+   }
+}
+#radio{
+    position:absolute;
+    opacity: 0.5;
+    right: 0;
+    z-index: 8;
+    -webkit-animation: radio 18s ease-in-out 3.9s infinite alternate;
+}
+@keyframes radio {
+    to{
+        right: 0;
+     opacity: 0.1;
+    }
+ }
+.gif{
+    position:absolute;
+    right:4.5%;
+    top:4%;
+    height:50%;
+    opacity: 1;
+    -webkit-animation: flys1 2s ease-in-out 3.9s infinite alternate;
+}
+
+@keyframes flys1 {
+    to{
+     top: 4%;
+     opacity: 0.6;
+    }
+ }
+ .pick{
+    position:absolute;
+    top:30%;
+    left: 43%;
+    width:10%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.s1-ho{
+    position:absolute;
+    width:34%;
+    top:-55%;
+    left:75%;
+}
+

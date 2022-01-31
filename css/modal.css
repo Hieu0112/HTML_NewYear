@@ -1,0 +1,86 @@
+.modal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:fixed;
+    margin: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    background-color:rgba(0, 0,0, 0.4);
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    display: none;
+    z-index: 10;
+
+}
+.modal .Thong-bao{
+    z-index: 5;
+    position: relative;
+    width: 37%;
+    height: 32%;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 38, 0, 0.657);
+    align-items: center;
+    justify-content: center;
+    top:6%;
+    left:30%;
+    background-color:#fff;
+}
+ .modal .Thong-bao .tb1{
+    z-index: 5;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: red;
+    padding:5px 0;
+}
+.modal .Thong-bao .close1{
+    position:absolute;
+    right: 0;
+    top: 0;
+    padding:8px;
+    color:#000;
+    opacity: 0.9;
+}
+.modal .Thong-bao .van{
+    position:absolute;
+    left:3%;
+    right:3%;
+    top: 37%;
+    color:red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+} 
+ .modal .Thong-bao .close2{
+    border-radius: 5px;
+    position:absolute;
+    right: 1%;
+    bottom: 2%;
+    padding:8px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:yellow;
+    size:30px;
+}
+.open{
+    display:flex;
+}
+.modal-close{
+    cursor: pointer;
+} 
+.icon1{
+    position:absolute;
+    width:10%;
+    top:34%;
+    left:26%;
+    z-index: 10;
+}
+.close2:hover,
+.close1:hover{
+    background-color: yellow;
+    opacity: 0.6;
+}

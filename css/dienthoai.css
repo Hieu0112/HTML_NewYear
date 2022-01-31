@@ -1,0 +1,137 @@
+@media only screen and (max-width: 800px) {
+    .flower:nth-child(1) {
+        width: 55%;
+        height: 40%;
+    }
+    .flower:nth-child(2) {
+        width: 55%;
+        height: 45%;
+    }
+    .contain-tree-flower:nth-child(1) {
+        width: 45%;
+        height: 27%;
+        top: 15%;
+    }
+    .contain-tree-flower:nth-child(2) {
+        width: 43%;
+        height: 30%;
+        top: 60%;
+    }
+    .family:nth-child(4) {
+        height: 30%;
+        width: 50%;
+        bottom: 0px;
+    }
+    .family:nth-child(5) {
+        height: 25%;
+        width: 45%;
+        left: 60%;
+        bottom: 0px;
+    }
+    @keyframes animationTopDownTextTet {
+        to {
+            top: -5%;
+        }
+    }
+    @keyframes animationTopDownNumber2020 {
+        to {
+            top: -11%;
+        }
+    }
+    @keyframes animationTopDownSlogan {
+        to {
+            top: -9%;
+        }
+    }
+    .textTet {
+        width: 20%;
+        height: 20%;
+        left: 5%;
+    }
+    .number {
+        position: fixed;
+        top: -8%;
+        z-index: 11;
+        width: 15%;
+        height: 23%;
+    }
+    .number:nth-child(7) {
+        left: 26%;
+    }
+    .number:nth-child(8) {
+        left: 37%;
+    }
+    .number:nth-child(9) {
+        left: 47%;
+    }
+    .number:nth-child(10) {
+        left: 57%;
+    }
+    .slogan {
+        left: 70%;
+        height: 20%;
+        width: 15%;
+    }
+    .gif{
+        height:40%;
+        right:1%;
+        top:3%;
+    }
+    .clock {
+        top: 35%;
+        left: 2.5%;
+        width: 95% !important;
+        height: 150px !important;
+    }
+    .clock .viewTime {
+        margin-top: 40px;
+    }
+    .clock .viewTime .time-remain > p {
+        margin-top: 15px;
+        font-size: 30px;
+        left: 10%;
+    }
+    .clock .viewTime .time-remain:first-child {
+        margin-right: 10px;
+        transition: 0.5s;
+    }
+    .clock .viewTime .hai-cham > p {
+        font-size: 45px;
+        top:2%;
+        line-height: 160%;
+    }
+    .clock .viewTime .time-remain .element-time {
+        margin-top: 15px;
+        height:80px;
+        font-size:50px;
+        border-radius: 7px;
+    }
+
+
+    .modal .Thong-bao{
+        top:2%;
+        width:90%;
+        left:5%;
+    }
+    #radio{
+        width:10%;
+    }
+    .pick{
+        width:20%;
+        left:38%;
+    }
+    .s1-ho{
+        top:-40%;
+    }
+    .phao{
+        top:0;
+        width:100px;
+    }
+    .modal .Thong-bao .van{
+        top:25%;
+    } 
+    .icon1{
+        left:1%;
+        width:50px;
+    }
+}
